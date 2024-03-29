@@ -1995,14 +1995,44 @@ a {
 .w3-hover-border-pale-blue:hover {
     border-color: #e7ffff !important
 }
+map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
 .footer{
     display: flex;
     justify-content: center;
     align-items:center;
-    height: 90px;
-    width: 200%;
-    
+    height: 80px;
+    margin-top: 300px;
 }
+img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    transition: 2s;
+
+}
+.phone{
+    background: url(phone.png)center/cover;
+
+}
+.email{
+    background: url(email.png)center/cover;
+}
+.vp{
+    background: url(wp.png)center/cover ;
+}
+.in{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: #607d8b;
+}
+
+    
 
 
 
