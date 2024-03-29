@@ -1995,7 +1995,14 @@ a {
 .w3-hover-border-pale-blue:hover {
     border-color: #e7ffff !important
 }
-
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 90px;
+    width: 200%;
+    
+}
 
 
 
